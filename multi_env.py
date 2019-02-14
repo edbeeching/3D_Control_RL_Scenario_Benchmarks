@@ -38,7 +38,7 @@ def pipe_worker2(pipe, params, is_train, idx_range=[0]):
         obs = env.reset()
         envs_queue.append((obs, env))
         
-    _, cur_env = envs_queue.pop()
+    obs, cur_env = envs_queue.pop()
     
     
     while True:
@@ -46,7 +46,7 @@ def pipe_worker2(pipe, params, is_train, idx_range=[0]):
         if action is None:
             break
         elif action == 'reset':
-            pipe.send(env.reset())
+            pipe.send(cur_env.reset())
         else:
             obs, reward, done, info = cur_env.step(action)
             
