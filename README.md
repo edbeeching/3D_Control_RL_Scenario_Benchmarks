@@ -9,12 +9,12 @@ This repository includes:
 
 
 # Contents
-* [Installation](https://github.com/anonymous85/EfficientRLBenchmarks/blob/master/README.md#installation-1)
-* [Custom scenario generation](https://github.com/anonymous85/EfficientRLBenchmarks#custom-scenario-generation-1)
-* [Evaluating and training agents](https://github.com/anonymous85/EfficientRLBenchmarks#evaluating-pretrained-agents-and-training-new-ones-on-the-scenarios)
-* [FAQ](https://github.com/anonymous85/EfficientRLBenchmarks#faq)
-* [Citation TODO](https://github.com/anonymous85/EfficientRLBenchmarks#citation-1)
-* [Acknowledgements TODO](https://github.com/anonymous85/EfficientRLBenchmarks/blob/master/README.md#acknowledgements)
+* [Installation](https://github.com/edbeeching/3D_Control_RL_Scenario_Benchmarks/blob/master/README.md#installation-1)
+* [Custom scenario generation](https://github.com/edbeeching/3D_Control_RL_Scenario_Benchmarks#custom-scenario-generation-1)
+* [Evaluating and training agents](https://github.com/edbeeching/3D_Control_RL_Scenario_Benchmarks#evaluating-pretrained-agents-and-training-new-ones-on-the-scenarios)
+* [FAQ](https://github.com/edbeeching/3D_Control_RL_Scenario_Benchmarks#faq)
+* [Citation TODO](https://github.com/edbeeching/3D_Control_RL_Scenario_Benchmarks#citation-1)
+* [Acknowledgements TODO](https://github.com/edbeeching/3D_Control_RL_Scenario_Benchmarks/blob/master/README.md#acknowledgements)
 
 ## Installation
 ### Requirements
@@ -53,8 +53,8 @@ The evaluation code will output example rollouts for all 64 test scenarios.
 ### Labyrinth
 
 <p float="left">
-  <img src="https://github.com/anonymous85/EfficientRLBenchmarks/blob/master/videos/labyrinth_example.gif" height="200" />
-  <img src="https://github.com/anonymous85/EfficientRLBenchmarks/blob/master/results/labyrinth_res.png" height="200" /> 
+  <img src="https://github.com/edbeeching/3D_Control_RL_Scenario_Benchmarks/blob/master/videos/labyrinth_example.gif" height="200" />
+  <img src="https://github.com/edbeeching/3D_Control_RL_Scenario_Benchmarks/blob/master/results/labyrinth_res.png" height="200" /> 
 </p>
 
 Evaluation:
@@ -79,8 +79,8 @@ python  train_a2c.py --scenario custom_scenario{:003}.cfg \
 
 ### Find and return
 <p float="left">
-  <img src="https://github.com/anonymous85/EfficientRLBenchmarks/blob/master/videos/find_return_example.gif" height="200" />
-  <img src="https://github.com/anonymous85/EfficientRLBenchmarks/blob/master/results/find_return_results.png" height="200" /> 
+  <img src="https://github.com/edbeeching/3D_Control_RL_Scenario_Benchmarks/blob/master/videos/find_return_example.gif" height="200" />
+  <img src="https://github.com/edbeeching/3D_Control_RL_Scenario_Benchmarks/blob/master/results/find_return_results.png" height="200" /> 
 </p>
 
 Evaluation:
@@ -104,8 +104,8 @@ python  train_a2c.py --scenario custom_scenario{:003}.cfg \
 
 ### K-item
 <p float="left">
-  <img src="https://github.com/anonymous85/EfficientRLBenchmarks/blob/master/videos/4_item_example.gif" height="200" />
-  <img src="https://github.com/anonymous85/EfficientRLBenchmarks/blob/master/results/kitem_res.png" height="200" /> 
+  <img src="https://github.com/edbeeching/3D_Control_RL_Scenario_Benchmarks/blob/master/videos/4_item_example.gif" height="200" />
+  <img src="https://github.com/edbeeching/3D_Control_RL_Scenario_Benchmarks/blob/master/results/kitem_res.png" height="200" /> 
 </p>
 
 Evaluation:
@@ -129,8 +129,8 @@ python  train_a2c.py --scenario custom_scenario{:003}.cfg \
 
 ### Two color correlation
 <p float="left">
-  <img src="https://github.com/anonymous85/EfficientRLBenchmarks/blob/master/videos/two_color_example.gif" height="200" />
-  <img src="https://github.com/anonymous85/EfficientRLBenchmarks/blob/master/results/two_color_correlation_res.png" height="200" /> 
+  <img src="https://github.com/edbeeching/3D_Control_RL_Scenario_Benchmarks/blob/master/videos/two_color_example.gif" height="200" />
+  <img src="https://github.com/edbeeching/3D_Control_RL_Scenario_Benchmarks/blob/master/results/two_color_correlation_res.png" height="200" /> 
 </p>
 
 Evaluation:
